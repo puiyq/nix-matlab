@@ -36,7 +36,6 @@ pkgs:
   at-spi2-atk
   at-spi2-core
   libdrm
-  mesa.drivers
 
   mesa # for libgdm, required by Simulink
 
