@@ -37,7 +37,8 @@ pkgs:
   at-spi2-core
   libdrm
 
-  mesa # for libgdm, required by Simulink
+  # Required by Simulink
+  mesa
 
   gcc
   gfortran
@@ -58,6 +59,9 @@ pkgs:
   libuuid
   libxcrypt
   libxcrypt-legacy
+
+  # Needed since 2024
+  libgbm
 
 ]) ++ (with pkgs.xorg; [
   libSM
