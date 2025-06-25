@@ -80,4 +80,7 @@ pkgs:
   libXt
   libXtst
   libXxf86vm
+
+  # Needed since 2025
+  libICE
 ])
