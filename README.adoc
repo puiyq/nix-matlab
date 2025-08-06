@@ -1,3 +1,15 @@
+[WARNING]
+====
+
+This project is archived. I created it back when I had only a native NixOS
+machine available for writing Matlab Code. Now I avoid using Matlab, and I use
+Python. If you really have to use Matlab, I feel sorry for you, and I'd
+recommend to do it on a Windows machine or another distribution. If you are
+using NixOS as the main top level OS, and you really can't convince your boss
+to use a better programming language, try out https://distrobox.it/[distrobox].
+
+====
+
 = Matlab for Nix users
 :source-highlighter: rouge
 
