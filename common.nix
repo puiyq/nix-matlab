@@ -1,6 +1,7 @@
-/* This list of dependencies is based on the official Mathworks dockerfile for
-   R2020a, available at
-     https://github.com/mathworks-ref-arch/container-images
+/*
+  This list of dependencies is based on the official Mathworks dockerfile for
+  R2020a, available at
+    https://github.com/mathworks-ref-arch/container-images
 */
 pkgs:
 
@@ -30,6 +31,7 @@ pkgs:
   unzip
   zlib
   linux-pam
+  freetype
 
   # These packages are needed since 2021b version
   gtk2
@@ -63,7 +65,6 @@ pkgs:
   # Needed since 2024
   libgbm
 
-]) ++ (with pkgs.xorg; [
   libSM
   libX11
   libxcb
