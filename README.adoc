@@ -290,6 +290,10 @@ again afterwards when I switch again to WiFi internet connection. It's somewhat
 annoying, and I haven't found a solution / explanation why does my host id
 changes when I switch to a wired connection.
 
+=== How to enable HiDPI scaling
+
+See https://www.mathworks.com/matlabcentral/answers/406956-does-matlab-support-high-dpi-screens-on-linux
+
 == Previous work / Credits
 
 Core parts of this repo are based on
