@@ -65,23 +65,23 @@ pkgs:
   # Needed since 2024
   libgbm
 
-  libSM
-  libX11
+  libsm
+  libx11
   libxcb
-  libXcomposite
-  libXcursor
-  libXdamage
-  libXext
-  libXfixes
-  libXft
-  libXi
-  libXinerama
-  libXrandr
-  libXrender
-  libXt
-  libXtst
-  libXxf86vm
+  libxcomposite
+  libxcursor
+  libxdamage
+  libxext
+  libxfixes
+  libxft
+  libxi
+  libxinerama
+  libxrandr
+  libxrender
+  libxt
+  libxtst
+  libxxf86vm
 
   # Needed since 2025
-  libICE
+  libice
 ])
